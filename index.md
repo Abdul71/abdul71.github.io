@@ -6,7 +6,7 @@ description: "Medical AI researcher"
 
 ## About Me
 
-<img class="profile-picture" src="images/profile_picture.jpg" alt="Profile picture">
+<img class="profile-picture" src="images/profile_picture.png" alt="Profile picture">
 
 
 {% highlight bash %}
