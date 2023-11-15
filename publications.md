@@ -29,7 +29,11 @@ title: "./abdul71/publications"
 <div>
   <details class="description-item is-expandable">
     <summary class="description-item-title"> <i class="ri-add-circle-line"></i>  Abstract</summary>
-    <div class="description-item">{{ pub.abstract }} <span><a href="/assets/bibtex/{{ pub.bibtex }}" download><i class="ri-file-download-line"></i>&nbsp;bibtex</a></span></div>
+    <div class="description-item">{{ pub.abstract }} 
+        {% if pub.bibtex %}
+        <span><a href="/assets/bibtex/{{ pub.bibtex }}" download><i class="ri-file-download-line"></i>&nbsp;bibtex</a></span>
+        {% endif %}
+    </div>
   </details>
 </div>
 </div>
