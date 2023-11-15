@@ -7,7 +7,7 @@ description: "Medical AI researcher"
 ## About Me
 
 <img class="profile-picture" src="images/profile.png" alt="Profile picture">
-<iframe src="https://github.com/sponsors/jpdias/button" title="Sponsor jpdias" style="border: 0; border-radius: 6px;/*! background-color: beige; */" class="sponsor" width="114" height="32"></iframe>
+
 
 {% highlight bash %}
 $ whoami
@@ -18,7 +18,7 @@ I am a computer science graduate from the [University of Rochester] (https://roc
 
 ## Work
 
-- Medical AI reseacher @ [ROC HCI](https://roc-hci.com/), Computer Science Department, University of Rocester 
+- Medical AI reseacher @ [ROC HCI](https://roc-hci.com/)
 
 ## Research Interests
 
