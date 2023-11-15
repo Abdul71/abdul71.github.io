@@ -11,25 +11,23 @@ description: "Medical AI researcher"
 
 {% highlight bash %}
 $ whoami
-jpdias: phd. engineer. developer. photography enthusiast.
+Abdelrahman: ml researcher. engineer. programmer. football enthusiast.
 {% endhighlight %}
 
-João Pedro Dias is part researcher on the thin line between hardware and software, and part Software Engineer. He has a BSc+MSc in [Informatics and Computing Engineering](https://sigarra.up.pt/feup/en/cur_geral.cur_view?pv_ano_lectivo=2018&pv_origem=CUR&pv_tipo_cur_sigla=MI&pv_curso_id=742) by the [Faculty of Engineering, University of Porto (FEUP)](https://sigarra.up.pt/feup/en/WEB_PAGE.INICIAL). He earned his Ph.D. in Informatics Engineering fromFEUP in 2022, while receiving a grant from the FCT. He maintains a Software Engineer position as a day-to-day job at Kuehne+Nagel. Since 2017, he has been an Invited Assistant Professor at FEUP, where he teaches courses in Software Engineering, Operating Systems, among others. He has (co-)supervised  +5 MSc dissertations and contributed to two projects at LIACC and INESC TEC. His research focuses on Internet-of-Things systems, software engineering, security and privacy, and his work has been published in several top-tier conferences and journals ([h-index 16, i10-index 22](https://scholar.google.com/citations?user=sQ2vKI0AAAAJ)). In his free time, he enjoys participating in Capture The Flag competitions, experimenting with Software-defined Radio, building web applications, reverse-engineering hardware, and photographing while wandering in nature.
+I am a computer science graduate from the [University of Rochester] (https://rochester.edu/). I am currently a researcher at the [ROC HCI](https://roc-hci.com/) Lab where I work under the supervision of Professor [Ehsan Hoque](https://hoques.com/). I have previous experience in Cryptography research under Professor [Muthu Venkitasubramaniam](https://muthu.georgetown.domains/). My current research focuses on Multimodal Learning, Medical AI, and building robust & unbiased ML/DL pipelines. I am passionate about accessibility, augmentation, and medical AI research. I am a huge Alahly and AC Milan fan and I enjoy playing football and Fifa in my free time.
 
 ## Work
 
-- Software Engineer @ [Kuehne+Nagel](https://kuehne-nagel.com)
-- Invited Assistant Professor @ [FEUP](https://sigarra.up.pt/feup/en/WEB_PAGE.INICIAL)
+- Medical AI reseacher @ [ROC HCI](https://roc-hci.com/), Computer Science Department, University of Rocester 
 
 ## Research Interests
 
-- Software Engineering
-  - Design Patterns, Development Methodologies, Software Development, Edge/Fog/Cloud Computing, Live Programming, Visual Programming and Fault-Tolerance
-- Internet-of-Things
-  - Systems of Systems, Reference Architectures, Development Toolkits and IDEs
-- Security & Privacy
-  - Surveillance Self-Defense, Capture the Flag (CTF) and Security Education
-
+- Multimodal Learning
+  - Co-Learning, Alignment, Fusion.
+- Medical AI
+  - Early screening, Tracking, and Intervention
+- Accessibility
+ 
 ## Recent Publications
 
 {% assign counter = 0 %}
