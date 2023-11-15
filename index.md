@@ -31,18 +31,6 @@ I am a computer science graduate from the [University of Rochester](https://roch
 
 {% assign counter = 0 %}
 
-{% for pub in site.data.publications.confs limit:3 %}
-
-{% assign counter = counter | plus:1 %}
-
-<div class="pub-item">
-<div class="pub-title"><span>[{{ counter }}]</span><a href="{{ pub.url }}" target="_blank"><b>{{ pub.title }}</b></a><br></div>
-<div><i class="ri-group-line"></i> {{ pub.authors }}</div>
-<div><i class="ri-book-3-line"></i>  {{ pub.conference }}</div>
-</div>
-
-{% endfor %}
-
 {% for pub in site.data.publications.journals limit:2 %}
 
 {% assign counter = counter | plus:1 %}
@@ -54,5 +42,19 @@ I am a computer science graduate from the [University of Rochester](https://roch
 </div>
 
 {% endfor %}
+
+
+{% for pub in site.data.publications.confs limit:2 %}
+
+{% assign counter = counter | plus:1 %}
+
+<div class="pub-item">
+<div class="pub-title"><span>[{{ counter }}]</span><a href="{{ pub.url }}" target="_blank"><b>{{ pub.title }}</b></a><br></div>
+<div><i class="ri-group-line"></i> {{ pub.authors }}</div>
+<div><i class="ri-book-3-line"></i>  {{ pub.conference }}</div>
+</div>
+
+{% endfor %}
+
 
 <a href="/publications"><i class="ri-add-circle-line"></i> **View More**</a>
