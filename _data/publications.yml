@@ -277,16 +277,15 @@ confs:
     bibtex: 10.5220_0006392404630469.bib
 
 journals:
-  - title: "Visual Notations in Container Orchestrations: An Empirical Study with Docker Compose"
-    authors: "Bruno Piedade, João Pedro Dias, and Filipe F. Correia"
-    conference: "Software and Systems Modeling"
-    year: 2022
-    url: "https://doi.org/10.1007/s10270-022-01027-8"
-    issn: "1619-1374"
+  - title: "Using AI to measure Parkinson’s disease severity at home"
+    authors: "Md. Saiful, Islam Wasifur Rahman, Abdelrahman Abdelkader, Sangwu Lee, Phillip T. Yang, Jennifer Lynn Purks, Jamie Lynn Adams, Ruth B. Schneider, Earl Ray Dorsey, Ehsan Hoque"
+    conference: "Nature npj Digital Medicine 2023"
+    year: 2023
+    url: "https://www.nature.com/articles/s41746-023-00905-9"
+    issn: "2398-6352"
     status: "Published"
-    pub: Springer
-    doi: 10.1007/s10270-022-01027-8
-    abstract: "Container orchestration tools supporting infrastructure-as-code allow new forms of collaboration between developers and operatives. Still, their text-based nature permits naive mistakes and is more difficult to read as complexity increases. We can find few examples of low-code approaches for defining the orchestration of containers, and there seems to be a lack of empirical studies showing the benefits and limitations of such approaches. We hypothesize that a complete visual notation for Docker-based orchestrations could reduce the effort, the error rate, and the development time. Therefore, we developed a tool featuring such a visual notation for Docker Compose configurations, and we empirically evaluated it in a controlled experiment with novice developers. The results show a significant reduction in development time and error-proneness when defining Docker Compose files, supporting our hypothesis. The participants also thought the prototype easier to use and useful, and wanted to use it in the future."
+    doi: 10.1038/s41746-023-00905-9
+    abstract: "We present an artificial intelligence (AI) system to remotely assess the motor performance of individuals with Parkinson’s disease (PD). In our study, 250 global participants performed a standardized motor task involving finger-tapping in front of a webcam. To establish the severity of Parkinsonian symptoms based on the finger-tapping task, three expert neurologists independently rated the recorded videos on a scale of 0–4, following the Movement Disorder Society Unified Parkinson’s Disease Rating Scale (MDS-UPDRS). The inter-rater reliability was excellent, with an intra-class correlation coefficient (ICC) of 0.88. We developed computer algorithms to obtain objective measurements that align with the MDS-UPDRS guideline and are strongly correlated with the neurologists’ ratings. Our machine learning model trained on these measures outperformed two MDS-UPDRS certified raters, with a mean absolute error (MAE) of 0.58 points compared to the raters’ average MAE of 0.83 points. However, the model performed slightly worse than the expert neurologists (0.53 MAE). The methodology can be replicated for similar motor tasks, providing the possibility of evaluating individuals with PD and other movement disorders remotely, objectively, and in areas with limited access to neurological care."
     
   - title: "Designing and Constructing Internet-of-Things Systems: An Overview of the Ecosystem"
     authors: "João Pedro Dias, André Restivo, and Hugo Sereno Ferreira"
@@ -359,37 +358,7 @@ journals:
     abstract: "Access control is a crucial part of a system’s security, restricting what actions users can perform on resources. Therefore, access control is a core component when dealing with eHealth data and resources, discriminating which is available for a certain party. We consider that current systems that attempt to assure the share of policies between facilities are prone to system’s and network’s faults and do not assure the integrity of policies life-cycle. By approaching this problem with a blockchain where the operations are stored as transactions, we can ensure that the different facilities have knowledge about all the parts that can act over the eHealth resources while maintaining integrity, auditability, and authenticity."
     bibtex: jias18.bib
 
-informal:
-  - title: "Multi-Approach Debugging of Industrial IoT Workflows"
-    authors: "Andreia Rodrigues, José Pedro Silva, João Pedro Dias and Hugo Sereno Ferreira"
-    year: 2020
-    url: "https://arxiv.org/abs/2009.05828"
-    pdf: "https://arxiv.org/pdf/2009.05828"
-    abstract: "Industrial Internet-of-Things (IIoT) results from the addition of sensing and actuating capabilities to industrial environments to improve the overall manufacturing processes. Some of these systems have highly-complex tasks of monitorization and control and need to be programmed accordingly. The use of visual programming, such as workflows, is common in these systems due to the abstraction they provide to the systems programmer. However, such programming environments have several deficiencies on what regards debugging capabilities, mostly due to the constraints that difficult the use of traditional mechanisms. The work presented in this paper approaches these issues, delving into the design and implementation of a multi-strategy debugging mechanism into a commercial-grade Manufacturing Execution System. To validate the approach, a proof-of-concept was then developed and validated against different debugging scenarios."
-    bibtex: 2009.05828.bib
 
-  - title: "State of the Software Development Life-Cycle for the Internet-of-Things"
-    authors: "João Pedro Dias and Hugo Sereno Ferreira"
-    year: 2018
-    url: "https://arxiv.org/abs/1811.04159"
-    pdf: "https://arxiv.org/pdf/1811.04159"
-    abstract: "Software has a longstanding association with a state of crisis considering its success rate. The explosion of Internet-connected devices, Internet-of-Things, adds to the complexity of software systems. The particular characteristics of these systems, such as being large-scale and its heterogeneity, pose increasingly new challenges. In this paper, we first briefly introduce the IoT paradigm and the current state of art of software development. Then, we delve into the particularities of developing software for IoT systems and systems of systems, given an overview of what are the current methodologies and tools for design, develop and test such systems. The findings are discussed, revealing open issues and research directions, and reveal that the nowadays IoT software development practices are still lagging behind of what are the current best practices."
-    bibtex: 1811.04159.bib
-    #  - title: "Blockchain-based PKI for Crowdsourced IoT Sensor Information"
-#    authors: "Guilherme Pinto, João Pedro Dias, Hugo Sereno Ferreira"
-#    year: 2018
-#    url: "https://arxiv.org/abs/1807.03863"
-#    pdf: "https://arxiv.org/pdf/1807.03863"
-#  - title: "Dynamic Allocation of Serverless Functions in IoT Environments"
-#    authors: "Duarte Pinto, João Pedro Dias, Hugo Sereno Ferreira"
-#    year: 2018
-#    url: "https://arxiv.org/abs/1807.03755"
-#    pdf: "https://arxiv.org/pdf/1807.03755"
-#  - title: "Blockchain for Access Control in e-Health Scenarios"
-#    authors: "João Pedro Dias, Luís Reis, Hugo Sereno Ferreira, Ângelo Martins"
-#    year: 2018
-#    url: "https://arxiv.org/abs/1805.12267"
-#    pdf: "https://arxiv.org/pdf/1805.12267"
 
 abstracts:
   - title: "A Preliminary Study on Mesh Networks and IoT"
@@ -419,19 +388,4 @@ abstracts:
     abstract: "A Botnet is, by definition, a collection of computers that varies from tens to millions. It runs special software that effectively allows the machines to be remotely controlled. In the most common situation, computers are recruited for a Botnet by an attacker that is able to exploit vulnerabilities, either of the system software or of human users (by social engineering), to infect the computers with the special crafted software that allows the remote control of the individual machines (now, 'bots'). Types of malicious usage of these Botnets are: spam (delivery of unsolicited email), manipulation of online polls/contests, denial of service attacks. But there are also cases where 'botnet software' is installed on purpose and authorized by the computers' owners, to be used for beneficial purposes. Such is the case of the SETI@home initiative. There is a need for an easy way to learn about Botnets: what they are, how they work, how they can be given good use. For that, we have developed an educational software project that on one hand, consists of a wiki with information on botnets, its anatomy, architecture and impact on the Internet. On the other hand, consists of an open-source botnet software kit with built-in functionalities useful to anyone with some computer technical knowledge, to experiment and find out how botnets work and can be changed and adapted to a variety of useful applications, such as introducing and exemplifying security and distributed systems' concepts."
     bibtex: LivroResumos2016.bib
 
-thesis:
-  - title: "Increasing the Dependability of Internet-of-Things Systems in the context of End-User Development Environments"
-    degree: "PhD Thesis"
-    supervision: "Supervised by Hugo Sereno Ferreira, PhD & Co-Supervised by João Pascoal Faria, PhD"
-    year: 2022
-    url: "http://hdl.handle.net/10216/140853"
-    pdf: "https://repositorio-aberto.up.pt/bitstream/10216/140853/2/553182.pdf"
-    bibtex: phdthesis.bib
-    
-  - title: "Reverse Engineering Static Content and Dynamic Behaviour of E-Commerce Websites for Fun and Profit"
-    degree: "Master's Degree Dissertation"
-    supervision: "Supervised by Hugo Sereno Ferreira, PhD & Co-Supervised by Rui Gonçalves, Eng."
-    year: 2016
-    url: "http://hdl.handle.net/10216/85374"
-    pdf: "https://jpdias.me/kugsha/resources/dissertation.pdf"
-    bibtex: mastersthesis.bib
+
