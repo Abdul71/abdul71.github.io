@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "./jpdias/projects"
+title: "./abdul71/projects"
 ---
 
 ## GitHub Repositories
@@ -19,7 +19,7 @@ title: "./jpdias/projects"
         desc: "projects-desc"
     };
 
-    const username = "jpdias";
+    const username = "abdul71";
 
     const repoXHR = new XMLHttpRequest();
 
