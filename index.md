@@ -24,7 +24,7 @@ I am a computer science graduate from the [University of Rochester](https://roch
 - Multimodal Learning
   - Co-Learning, Alignment, Fusion.
 - Medical AI
-  - Early screening, Tracking, and Intervention
+  - Early screening, Tracking, and Intervention.
 - Accessibility
  
 ## Recent Publications
