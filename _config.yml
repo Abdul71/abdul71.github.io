@@ -9,7 +9,7 @@ markdown: kramdown
 excerpt_separator: <!--more-->
 highlighter: rouge
 paginate: 8
-paginate_path: "/notes/page:num/"
+paginate_path: "/projects/page:num/"
 
 plugins: [rouge,kramdown,jekyll-paginate]
 
@@ -18,12 +18,10 @@ footer: yes
 nav:
   - name: "about"
     link: "/"
-  - name: "notes"
-    link: "/notes/"
+  - name: "projects"
+    link: "/projects/"
   - name: "publications"
     link: "/publications"
-  - name: "projects"
-    link: "/projects"
   - name: "cv.pdf"
     link: "/assets/Abdelrahman-Abdelkader.pdf"
   - name: "contact"
