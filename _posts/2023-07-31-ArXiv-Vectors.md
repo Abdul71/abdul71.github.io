@@ -6,8 +6,7 @@ thumbnail: /images/xmas22/xmas22.png
 description: "Recent small project to search ArXiv for relevant papers"
 ---
 
-Last summer, I was working on a project and spent significant amount of time searching for relevant previous papers. Therefore, I built this framework that uses LLM embeddings and vector databases to find the most relevant papers.
-
+Last summer, while working on a project, I spent ages searching for old papers. At one point, I wished for a magic oracle that I could ask about any paper. Luckily, we have embeddings and vector databases. They turned my wish into reality, helping me create my own oracle. 
 <!--more-->
 
 <center>
