@@ -22,10 +22,11 @@ I am a computer science graduate from the [University of Rochester](https://roch
 ## Research Interests
 
 - Multimodal Learning
-  - Co-Learning, Alignment, Fusion.
+  - Co-Learning, Representation learning, Alignment, Fusion, 
 - Medical AI
   - Early screening, Tracking, and Intervention.
-- Accessibility
+- Assistive Technology
+  - Accessibility
  
 ## Recent Publications
 
