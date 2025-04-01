@@ -13,7 +13,7 @@ $ whoami
 Abdelrahman: ml_researcher. engineer. programmer. football_enthusiast.
 {% endhighlight %}
 
-I am a a Master’s student in Computer Science at the [University of Rochester](https://rochester.edu/). I am currently a graduate ML researcher at the [ROC HCI](https://roc-hci.com/) Lab under the supervision of Professor [Ehsan Hoque](https://hoques.com/). I have previous experience in Cryptography research under Professor [Muthu Venkitasubramaniam](https://muthu.georgetown.domains/). My research focuses on Multimodal Learning, Medical AI, and building robust & unbiased ML/DL pipelines.  I’m passionate about leveraging AI for accessibility, early disease screening, and assistive technologies. I am a huge [Al-Ahly]() and [AC-Milan]() fan and I enjoy playing football and Fifa in my free time.
+I am a a Master’s student in Computer Science at the [University of Rochester](https://rochester.edu/). I am currently a graduate ML researcher at the [ROC HCI](https://roc-hci.com/) Lab under the supervision of Professor [Ehsan Hoque](https://hoques.com/). My research focuses on Multimodal Learning, Medical AI, and building robust & unbiased ML/DL pipelines.  I’m passionate about leveraging AI for accessibility, early disease screening, and assistive technologies. I am a huge [Al-Ahly]() and [AC-Milan]() fan and I enjoy playing football and Fifa in my free time.
 
 ## Work
 
