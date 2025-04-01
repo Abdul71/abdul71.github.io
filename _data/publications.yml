@@ -1,6 +1,14 @@
 #status: Accepted, In Press, Published, Submitted, Under revision
 #type: Workshop, Conference
 confs:
+  - title: "Accessible, At-Home Detection of Parkinson’s Disease via Multi-Task Video Analysis "
+    authors: "Md Saiful Islam, Tariq Adnan, Jan Freyberg, Sangwu Lee, Abdelrahman Abdelkader, Meghan Pawlik, Cathe Schwartz, Karen Jaffe, Ruth B. Schneider, E Ray Dorsey, Ehsan Hoque"
+    conference: "AAAI 2025"
+    year: "2025"
+    status: "Published"
+    url: "https://arxiv.org/abs/2406.14856"
+    abstract: "Limited accessibility to neurological care leads to underdiagnosed Parkinson's Disease (PD), preventing early intervention. Existing AI-based PD detection methods primarily focus on unimodal analysis of motor or speech tasks, overlooking the multifaceted nature of the disease. To address this, we introduce a large-scale, multi-task video dataset consisting of 1102 sessions (each containing videos of finger tapping, facial expression, and speech tasks captured via webcam) from 845 participants (272 with PD). We propose a novel Uncertainty-calibrated Fusion Network (UFNet) that leverages this multimodal data to enhance diagnostic accuracy. UFNet employs independent task-specific networks, trained with Monte Carlo Dropout for uncertainty quantification, followed by self-attended fusion of features, with attention weights dynamically adjusted based on task-specific uncertainties. To ensure patient-centered evaluation, the participants were randomly split into three sets: 60% for training, 20% for model selection, and 20% for final performance evaluation. UFNet significantly outperformed single-task models in terms of accuracy, area under the ROC curve (AUROC), and sensitivity while maintaining non-inferior specificity. Withholding uncertain predictions further boosted the performance, achieving 88.0+-0.3%$ accuracy, 93.0+-0.2% AUROC, 79.3+-0.9% sensitivity, and 92.6+-0.3% specificity, at the expense of not being able to predict for 2.3+-0.3% data (+- denotes 95% confidence interval). Further analysis suggests that the trained model does not exhibit any detectable bias across sex and ethnic subgroups and is most effective for individuals aged between 50 and 80. Requiring only a webcam and microphone, our approach facilitates accessible home-based PD screening, especially in regions with limited healthcare resources."
+
   - title: "PARK - Parkinson's Analysis with remote Kinetic tasks"
     authors: "Md Saiful Islam, Sangwu Lee, Abelrahman Abdelkader, Sooyoung Park, Eshan Hoque"
     conference: "ACII Demo Track"
@@ -10,6 +18,14 @@ confs:
     abstract: "We present a web-based framework to screen for Parkinson’s disease (PD) by allowing users to perform neurological tests in their homes. Our web framework guides the users to complete three tasks involving speech, facial expression, and finger movements. The task videos are analyzed to classify whether the users show signs of PD. We present the results in an easy-to-understand manner, along with personalized resources to further access to treatment and care. Our framework is accessible by any major web browser, improving global access to neurological care."
 
 journals:
+  - title: "A Novel Fusion Architecture for PD Detection Using Semi-Supervised Speech Embeddings"
+    authors: "Tariq Adnan, Abdelrahman Abdelkader, Zipei Liu, Ekram Hossain, Sooyong Park, MD Islam, Ehsan Hoque"
+    conference: "Nature npj Parkinson's Disease"
+    year: "2025"
+    url: "https://arxiv.org/abs/2405.17206"
+    status: "Under revision"
+    abstract: "We introduce a framework for screening Parkinson’s disease (PD) using English pangram utterances. Our dataset includes 1,306 participants (392 with PD) from both home and clinical settings, covering diverse demographics (53.2% female). We used deep learning embeddings from Wav2Vec 2.0, WavLM, and ImageBind to capture speech dynamics indicative of PD. Our novel fusion model for PD classification aligns different speech embeddings into a cohesive feature space, outperforming baseline alternatives. In a stratified randomized split, the model achieved an AUROC of 88.9% and an accuracy of 85.7%. Statistical bias analysis showed equitable performance across sex, ethnicity, and age subgroups, with robustness across various disease durations. Detailed error analysis revealed higher misclassification rates in specific age ranges for males and females, aligning with clinical insights. External testing yielded AUROCs of 82.1% and 78.4% on two clinical datasets, and an AUROC of 77.4% on an unseen general spontaneous English speech dataset, demonstrating versatility in natural speech analysis and potential for global accessibility and health equity"
+
   - title: "Using AI to measure Parkinson’s disease severity at home"
     authors: "Md Saiful Islam, Wasifur Rahman, Abdelrahman Abdelkader, Sangwu Lee, Phillip T. Yang, Jennifer Lynn Purks, Jamie Lynn Adams, Ruth B. Schneider, Earl Ray Dorsey, Ehsan Hoque"
     conference: "Nature npj Digital Medicine 2023"
